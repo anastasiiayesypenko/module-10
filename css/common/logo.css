@@ -1,0 +1,9 @@
+.logo {
+    margin-right: auto; 
+}
+.logo__link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}

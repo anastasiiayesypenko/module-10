@@ -1,0 +1,8 @@
+.header-icon {
+    width: 18px;
+    height: 15px;
+    fill: #fff;
+}
+.header-icon:hover {
+    fill: #fce38a;
+}

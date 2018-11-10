@@ -1,0 +1,65 @@
+.social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    opacity: 0;
+}
+.team-item:hover .social-media {
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+    opacity: 1;
+}
+  
+.separate-icon {
+    display: block;
+    background-color: #fce38a;
+    width: 55px;
+    height: 56px;
+}
+.separate-icon:not(:last-child) {
+    margin-right: 2px;
+}
+.separate-icon__svg {
+    fill: #f38181;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27px;
+    height: 35px;
+}
+.separate-icon:first-child {
+    width: 59px;
+    padding-left: 16px;
+}
+.separate-icon:hover {
+    -webkit-transition-property: 
+        background-color;
+    -o-transition-property: 
+        background-color;
+    transition-property: 
+        background-color;
+    background-color: #f38181;
+    -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+}
+.separate-icon:hover .separate-icon__svg {
+    fill: #fff;
+}
+  

@@ -1,0 +1,54 @@
+
+.services_section__title {
+    margin-top: 47px;
+}
+
+
+.list_of_services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.service_item {
+    padding: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 170px;
+    -ms-flex-preferred-size: 400px;
+        flex-basis: 400px;
+}
+.service-description__name {
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.service-description__article {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999;
+    margin-top: 14px;
+    line-height: 1.5;
+}
+.service-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 80px;
+    -ms-flex-preferred-size: 270px;
+        flex-basis: 270px;
+    text-align: justify;
+    margin-left: 25px;
+}

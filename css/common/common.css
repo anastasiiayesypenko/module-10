@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    list-style: none;
+}
+.svg-wrapper {
+    display: none;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center; 
+}

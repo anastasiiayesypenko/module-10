@@ -1,0 +1,48 @@
+.header-wrapper__text, .header-wrapper__title, .header-wrapper__button {
+    color: #fff;
+    text-align: center;
+}
+.header-wrapper__text {
+    margin-top: 50px;
+    margin-bottom: 37px;
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+}
+.header-wrapper__title {
+    margin: 0 auto;
+    width: 900px;
+    font-size: 150px;
+}
+.header-wrapper__button, .header-wrapper__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    display: inline-block;
+    font-weight: normal;
+}
+.subtitle {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 20px;
+}
+.subtitle::after {
+    content: "";
+    display: block;
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    margin: 39px auto 56px;
+}
+.team_subtitle::after {
+    margin: 43px auto 31px;
+}
+.services_section__title, .services_section__subtitle{
+    color: #333333;
+}

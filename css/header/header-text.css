@@ -1,0 +1,29 @@
+
+.header-wrapper__text, .header-wrapper__title, .header-wrapper__button {
+    color: #fff;
+    text-align: center;
+}
+.header-wrapper__text {
+    margin-top: 50px;
+    margin-bottom: 37px;
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+}
+.header-wrapper__title {
+    margin: 0 auto;
+    width: 900px;
+    font-size: 150px;
+}
+.header-wrapper__button, .header-wrapper__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-wrapper__button {
+    margin-top: 91px;
+    font-size: 14px;
+    border: 2px solid #fff;
+    width: 163px;
+    height: 45px;
+    background: transparent;
+}

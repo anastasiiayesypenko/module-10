@@ -1,0 +1,111 @@
+.team-item {
+    position: relative;
+    width: 380px;
+    min-height: 625px;
+}
+.team-item:not(:first-child) {
+    margin-left: 30px;
+}
+
+.team-members__description {
+    display: block;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 950px;
+    min-height: 130px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.team-item__name {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 31px auto 5px;
+}
+.team-item__position {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+}
+.team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.team-item:hover .team-item__photo {
+    -webkit-transition-property:
+        -webkit-box-shadow,
+        -webkit-transform;
+    transition-property:
+        -webkit-box-shadow,
+        -webkit-transform;
+    -o-transition-property:
+        box-shadow,
+        transform;
+    transition-property:
+        box-shadow,
+        transform;
+    transition-property:
+        box-shadow,
+        transform,
+        -webkit-box-shadow,
+        -webkit-transform;
+    -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+    -webkit-box-shadow: 11px 11px #95e1d3;
+            box-shadow: 11px 11px #95e1d3;
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+}
+.gradient {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 382px;
+    height: 472px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)));
+    background: -webkit-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+    background: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+}
+.team-item:hover .gradient {
+    -webkit-transition-property: 
+        opacity,
+        -webkit-transform;
+    transition-property: 
+        opacity,
+        -webkit-transform;
+    -o-transition-property: 
+        opacity,
+        transform;
+    transition-property: 
+        opacity,
+        transform;
+    transition-property: 
+        opacity,
+        transform,
+        -webkit-transform;
+    -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+    opacity: 1;
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+}
+

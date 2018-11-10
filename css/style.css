@@ -1,0 +1,35 @@
+@import "./nav/nav.css";
+@import "./common/common.css";
+@import "./common/logo.css";
+@import "./team-members/team.css";
+@import "./typography/texts.css";
+@import "./footer/footer.css";
+@import "./footer/form.css";
+@import "./footer/text.css";
+@import "./header/header-icon.css";
+@import "./header/header-text.css";
+@import "./header/header.css";
+@import "./service/service-item.css";
+@import "./team-members/seperate-icon.css";
+
+
+
+.header-wrapper {
+    background-image: url(../img/Layer\ 15.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    height: 1000px;
+    text-align: center;
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .header-wrapper {
+      background-image: url('../img/Layer\ 15@2x.jpg');
+    }
+  }
+
+
+
+
